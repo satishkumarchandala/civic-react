@@ -3,7 +3,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const path = require('path');
-require('dotenv').config({ path: './config.env' });
+require('dotenv').config({ path: './.env' });
 
 // Import database connection
 const connectDB = require('./config/database');
