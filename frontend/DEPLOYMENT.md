@@ -7,13 +7,19 @@
 
 ## Environment Variables for Production
 
-Set these environment variables in your Vercel dashboard:
+**IMPORTANT**: Set these environment variables directly in your Vercel dashboard:
+
+1. Go to your Vercel project dashboard
+2. Navigate to Settings → Environment Variables
+3. Add these variables:
 
 ```
-VITE_API_BASE_URL=https://your-backend-url/api
+VITE_API_BASE_URL=https://your-backend-url.onrender.com/api
 VITE_APP_NAME=Urban Issue Reporter
 VITE_APP_VERSION=1.0.0
 ```
+
+**Note**: Replace `https://your-backend-url.onrender.com/api` with your actual deployed backend URL.
 
 ## Deployment Steps
 
