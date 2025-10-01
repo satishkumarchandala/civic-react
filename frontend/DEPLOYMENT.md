@@ -26,13 +26,14 @@ VITE_APP_VERSION=1.0.0
 1. **Connect Repository**:
    - Go to [vercel.com](https://vercel.com)
    - Import your GitHub repository
-   - Select the `frontend` folder as the root directory
+   - **IMPORTANT**: Set the root directory to `frontend` in project settings
 
 2. **Configure Build Settings**:
    - Framework Preset: Vite
    - Build Command: `npm run build`
    - Output Directory: `dist`
    - Install Command: `npm install`
+   - Root Directory: `frontend` (CRUCIAL for monorepo setup)
 
 3. **Set Environment Variables**:
    - In Vercel dashboard → Project Settings → Environment Variables
